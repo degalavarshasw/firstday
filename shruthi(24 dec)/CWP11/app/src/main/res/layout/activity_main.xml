@@ -1,0 +1,63 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#64F56A"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:textStyle="bold"
+        android:textColor="#f00"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:background="#E9D740"
+        android:padding="10dp"
+        android:id="@+id/alertDialog"
+        android:onClick="alertDialog"/>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Date Picker"
+    android:textStyle="bold"
+        android:textColor="#f00"
+    android:textSize="25dp"
+    android:layout_margin="10dp"
+    android:background="#E9D740"
+    android:padding="10dp"
+    android:id="@+id/datePicker"
+    android:onClick="datepicker"/>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Time Picker"
+    android:textStyle="bold"
+        android:textColor="#f00"
+    android:textSize="25dp"
+    android:layout_margin="10dp"
+    android:background="#E9D740"
+    android:padding="10dp"
+    android:id="@+id/timePicker"
+    android:onClick="timePicker"/>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Progress Dialog"
+    android:textStyle="bold"
+        android:textColor="#f00"
+    android:textSize="25dp"
+    android:layout_margin="10dp"
+    android:background="#E9D740"
+    android:padding="10dp"
+    android:id="@+id/progressDialog"
+    android:onClick="progressDialog"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+</LinearLayout>
